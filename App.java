@@ -1,8 +1,8 @@
 import javax.swing.JOptionPane;
 
 //Crear un programa en java en el cual se pida al usuario ingresar su nombre, 
-//apellido, edad, hobbie, editor de cÛdigo preferido, sistema operativo que utiliza, 
-//luego deber· mostrarse por consola los datos ingresados.
+//apellido, edad, hobbie, editor de c√≥digo preferido, sistema operativo que utiliza, 
+//luego deber√° mostrarse por consola los datos ingresados.
  
 public class App {
 
@@ -11,19 +11,19 @@ public class App {
         
 		String nombre = JOptionPane.showInputDialog(null, "Ingrese nombre");
 		String apellido = JOptionPane.showInputDialog(null, "Ingrese apellido");
-        String edad = JOptionPane.showInputDialog(null, "Ingrese edad");
-        int ed = Integer.parseInt(edad);
-        String hobbie = JOptionPane.showInputDialog(null, "Ingrese hobbie");
-        String edc = JOptionPane.showInputDialog(null, "Ingrese editor de cÛdigo preferido");
-        String siso = JOptionPane.showInputDialog(null, "Ingrese sistema operativo");
+        	String edad = JOptionPane.showInputDialog(null, "Ingrese edad");
+        	int ed = Integer.parseInt(edad);
+        	String hobbie = JOptionPane.showInputDialog(null, "Ingrese hobbie");
+        	String edc = JOptionPane.showInputDialog(null, "Ingrese editor de c√≥digo preferido");
+        	String siso = JOptionPane.showInputDialog(null, "Ingrese sistema operativo");
         
         
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
-        System.out.println("Edad: " + ed);
-        System.out.println("Hobbie: " + hobbie);
-        System.out.println("Editor preferido: " + edc);
-        System.out.println("Sistema operativo: " + siso);
+        	System.out.println("Nombre: " + nombre);
+        	System.out.println("Apellido: " + apellido);
+        	System.out.println("Edad: " + ed);
+        	System.out.println("Hobbie: " + hobbie);
+        	System.out.println("Editor preferido: " + edc);
+        	System.out.println("Sistema operativo: " + siso);
         					
 	}
 
